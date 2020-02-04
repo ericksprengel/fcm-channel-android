@@ -232,7 +232,7 @@ class ChatMessageViewHolder extends RecyclerView.ViewHolder {
         }
         if (firstImageAttachment != null) {
             image.setVisibility(View.VISIBLE);
-            setOnImageAttachmentClickListener(image, attachmentMedias);
+            // setOnImageAttachmentClickListener(image, attachmentMedias);
             Picasso.get()
                 .load(firstImageAttachment.getUrl())
                 .into(image);
